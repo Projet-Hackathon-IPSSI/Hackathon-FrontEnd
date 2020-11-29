@@ -54,6 +54,11 @@ transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   border:1px solid red;
 }
 
+body {
+  background-image: url(../img/CurveHack.jpg);
+  background-color: #cccccc;
+  background-size: auto;
+ }
 
 #logreg-forms button[type="submit"]{ margin-top:10px; }
 
