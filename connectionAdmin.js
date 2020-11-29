@@ -5,7 +5,7 @@ class RequeteUser {
 
   getUser(){
     let settings = {
-      "url" : this.url + "/users/login",
+      "url" : this.url + "/admins/login",
       "method": "GET"
     }
     $.ajax(settings).done((response) => {
@@ -19,7 +19,7 @@ class RequeteUser {
       password: document.getElementById("password").value
     }
     let settings = {
-      "url" : this.url + "/users/login",
+      "url" : this.url + "/admins/login",
       "method": "POST",
       ContentType: "application/json",
       data: data
